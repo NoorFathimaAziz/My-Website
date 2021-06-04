@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoorAziz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Parisienne&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="top-container">
+       <img class="top-cloud"  src="CSS - My Site Images/cloud.png" alt="cloud-img">
+       <h1>I'am Noor.</h1>
+       <h4><p><strong></em>A <span class="Pro">Pro</span>grammer.</strong></p></h4>
+       <img class="bottom-cloud"  src="CSS - My Site Images/cloud.png" alt="cloud-img">
+       <img src="CSS - My Site Images/mountain.png" alt="mountain-img">
+  </div>
+   <div class="middle-container">
+    <div class="profile">
+      <img src="./noor.jpeg" alt="my picture" style="width: 250px">
+      
+      <h3>Hello.</h3>
+      <p class="intro">I'am a Web Developer in making, I would love to have a start up of my own and I'am a coffee person❤.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h3>My Skills.</h3>
+      <div class="skill-row">
+        <img class="techno" src="./techno.jpg" alt="technical skills" style="width: 200px">
+        <h3>Technical and soft skills</h3>
+        <p>Technical and soft skills are one of the most interesting topics to learn about,One doesn't have to feel the dislikingness towards it for it is one of the most impt topics to learn on.</p>
+      </div>
+      <div class="skill-row">
+        <img class="chef" src= "./cheff.jpg" alt="chef" style="width:200px">
+        <h3>Good Cook</h3>
+       <p>I'm very passionate about cooking,especially when if comes to side dishes I make sure they come out well.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h3>Get In Touch</h3>
+      <h5>looking forward to look up to your needs and expectations.</h5>
+      <p class="contact">you can easily contact me from the below link of address and mail ids.</p>
+      <a class="btn" href="mail id:noorfathimaaziz19@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href=https://www.instagram.com/aziz__noor?r=nametag>Instagram</a>
+    <a class="footer-link" href="https://myaccount.google.com/u/3/?utm_source=chrome-profile-chooser&pli=1">G-mail</a>
+    <p class="colorrr">© 2021 Noor Aziz.</p>
+  </div>
+  
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
